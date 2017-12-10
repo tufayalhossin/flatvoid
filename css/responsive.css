@@ -1,0 +1,144 @@
+@media screen and (max-width: 992px) {
+
+	/* header style start here */
+	.head-title {
+		text-align: center;
+	}
+	/* header style end here */
+
+
+
+
+
+
+
+
+	/* statistics style start here */
+	.section-statistics {
+		border-radius: 0;
+		margin: 0;
+	}
+
+	#statistic .col-sm-3:nth-child(even) .section-statistics {
+		background: #f2f2f2;
+	}
+
+	#statistic .col-sm-3:nth-child(even) .section-statistics:hover {
+		background: #03A9F4;
+	}
+	/* statistics style end here */
+
+
+
+
+
+
+
+
+
+	/* feature style start here */
+	#feature .feature-img {
+		display: none;
+	}
+
+	.section-features:hover i {
+		color: #2196F3;
+	}
+
+	.section-features.text-left,
+	.section-features.text-right {
+		text-align: center;
+	}
+
+	.section-features h4 {
+		font-weight: bold;
+	}
+
+	.section-features p {
+		padding-bottom: 15px;
+		padding-top: 15px;
+		border-bottom: 1px solid #f2f2f2;
+	}
+	/* feature style end here */
+
+
+
+
+
+
+
+	/* testimonial section start here */
+	#testimonial .carousel-caption p {
+		padding: 10px 0;
+	}
+	/* testimonial section end here */
+
+}
+
+
+
+
+
+
+/*
+@media all and (max-width:767px){
+	.header-nav-item ul:first-child{
+		display: none;
+	}
+	.header-nav-item ul:last-child{
+		display: block;
+	}
+	.header-title h1,
+	.header-title h2{
+		font-size: 28px;
+	}
+	.header-title p{
+		font-size: 16px;
+	}
+	.product-work h1,
+	.product-work h2,
+	.section-header-padding{
+		font-size: 28px;
+		margin: 0
+	}
+	.features-item{
+		text-align: center;
+	}
+	.features-item p{
+		text-align: justify;
+	}
+	.subscribe{
+		width: 315px;
+	}
+	.subscribe input:first-child{
+		width: 70%
+	}
+	.subscribe input:last-child{
+		width:30%;
+		padding: 0px 15px;
+	}
+	.statistics-border-right{
+		border-right:0;
+		border-bottom: 1px solid rgb(222, 222, 222)
+	}
+	.features-img{
+		display: none;
+	}
+	.features-item-box{
+		padding-top: 0;
+	}
+	.contact{
+		width: 320px
+	}
+	.social-header h1{
+		margin-bottom: 50px;
+	}
+	.social-links{
+		/*text-align: center;
+		margin-bottom: 15px
+	}
+	.footer-link{
+		margin-top: 30px;
+	}
+}
+*/
